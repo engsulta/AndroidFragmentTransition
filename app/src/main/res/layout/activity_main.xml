@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context="com.example.sulta.fragmentoperation.MainActivity">
+
+
+    <RelativeLayout
+        android:id="@+id/main_fragmentstack"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="5">
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/main_addFragment1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="addfragment1" />
+
+    <Button
+        android:id="@+id/main_addFragment2"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="addfragment2" />
+
+    <Button
+        android:id="@+id/main_addFragment3"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="addfragment3" />
+
+    <Button
+        android:id="@+id/main_replaceFragment4"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="replaceFragment4" />
+
+    <Button
+        android:id="@+id/main_remove"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:text="remove" />
+
+</LinearLayout>
